@@ -19,13 +19,19 @@ public sealed class RedisService : IRedisService
         _db       = redis.GetDatabase();
         _queueKey = config["Redis:QueueKey"] ?? "scan:jobs";
         _logger   = logger;
+
+        _logger.LogInformation("RedisService listening on queue: {QueueKey}", _queueKey); // ← add this
     }
 
     public async Task<ScanJobDto?> DequeueAsync(CancellationToken ct)
     {
         var value = await _db.ListLeftPopAsync(_queueKey);
 
-        if (value.IsNullOrEmpty) return null;
+        if (value.IsNullOrEmpty)
+        {
+            _logger.LogDebug("Queue '{QueueKey}' is empty, no job found", _queueKey); // ← add this
+            return null;
+        }
 
         try
         {
