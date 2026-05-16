@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScanJobWorker.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07d832656e464e91d9f8ddb1ef16618a58aafee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScanJobWorker.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScanJobWorker.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
