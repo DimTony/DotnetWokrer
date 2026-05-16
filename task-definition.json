@@ -1,0 +1,41 @@
+{
+  "family": "vulnwatch-worker-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "executionRoleArn": "arn:aws:iam::012834916544:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::012834916544:role/ecsTaskRole",
+  "containerDefinitions": [
+    {
+      "name": "vulnwatch-worker",
+      "image": "012834916544.dkr.ecr.eu-north-1.amazonaws.com/vulnwatch-worker:latest",
+      "essential": true,
+      "environment": [
+        {
+          "name": "DOTNET_ENVIRONMENT",
+          "value": "Development"
+        }
+      ],
+      "secrets": [
+        {
+          "name": "ConnectionStrings__Redis",
+          "valueFrom": "arn:aws:ssm:eu-north-1:012834916544:parameter/fourteen/production/ConnectionStrings__RedisConnection"
+        },
+        {
+          "name": "Redis__QueueKey",
+          "valueFrom": "arn:aws:ssm:eu-north-1:012834916544:parameter/fourteen/production/ConnectionStrings__RedisPickupQueue"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/vulnwatch-worker-task",
+          "awslogs-create-group": "true",
+          "awslogs-region": "eu-north-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ]
+}

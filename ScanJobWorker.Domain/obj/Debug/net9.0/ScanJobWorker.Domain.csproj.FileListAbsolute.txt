@@ -1,0 +1,11 @@
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\bin\Debug\net9.0\ScanJobWorker.Domain.deps.json
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\bin\Debug\net9.0\ScanJobWorker.Domain.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\bin\Debug\net9.0\ScanJobWorker.Domain.pdb
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ScanJobWorker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ScanJobWorker.Domain.AssemblyInfoInputs.cache
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ScanJobWorker.Domain.AssemblyInfo.cs
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ScanJobWorker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ScanJobWorker.Domain.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\refint\ScanJobWorker.Domain.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ScanJobWorker.Domain.pdb
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Domain\obj\Debug\net9.0\ref\ScanJobWorker.Domain.dll

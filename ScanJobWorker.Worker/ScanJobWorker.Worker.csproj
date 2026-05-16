@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ScanJobWorker.Worker-6f610255-3c20-4d12-8eaf-3de8185c07d7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ScanJobWorker.Application\ScanJobWorker.Application.csproj" />
+    <ProjectReference Include="..\ScanJobWorker.Infrastructure\ScanJobWorker.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

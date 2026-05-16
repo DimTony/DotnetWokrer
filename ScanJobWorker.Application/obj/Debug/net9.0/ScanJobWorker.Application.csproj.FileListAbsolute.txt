@@ -1,0 +1,15 @@
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\bin\Debug\net9.0\ScanJobWorker.Application.deps.json
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\bin\Debug\net9.0\ScanJobWorker.Application.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\bin\Debug\net9.0\ScanJobWorker.Application.pdb
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\bin\Debug\net9.0\ScanJobWorker.Domain.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\bin\Debug\net9.0\ScanJobWorker.Domain.pdb
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.csproj.AssemblyReference.cache
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.AssemblyInfoInputs.cache
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.AssemblyInfo.cs
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.csproj.CoreCompileInputs.cache
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobW.A8E7BDED.Up2Date
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\refint\ScanJobWorker.Application.dll
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ScanJobWorker.Application.pdb
+C:\Users\dimojiakuo\Desktop\code\ScanJobWorker\ScanJobWorker.Application\obj\Debug\net9.0\ref\ScanJobWorker.Application.dll
