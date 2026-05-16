@@ -9,7 +9,7 @@ env:
   AWS_REGION:       eu-north-1
   ECR_REPOSITORY:   vulnwatch-worker
   ECS_CLUSTER:      genderize-cluster
-  ECS_SERVICE:      vulnwatch-service
+  ECS_SERVICE:      vulnwatch-worker
   CONTAINER_NAME:   vulnwatch-worker
   TASK_DEFINITION:  task-definition.json
 
